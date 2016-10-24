@@ -1,6 +1,6 @@
 var titulo=function(){
 var tituloDos=document.getElementById("form-signin-heading");
-tituloDos.innerHTML="Inicia Sesión";
+tituloDos.innerHTML="Por favor inicia sesión";
 };
 titulo();
 
@@ -17,14 +17,14 @@ var contras=function(){
 contras();
 
 var chbox=function(){
-	var check=document.getElementsByTagName("SPAN")[0];
+	var check=document.getElementsByTagName("span")[0];
 check.textContent="Recordar datos";
 
 };
 chbox();
 
 var boton=function(){
-	var botn=document.getElementsByTagName("BUTTON")[0];
+	var botn=document.getElementsByTagName("button")[0];
 botn.textContent="Iniciar Sesión";
 
 };
